@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+    background-image: url(./images/man-5524488_1920.jpg);
+    background-size: cover;
+}
+
+#form{
+    background-image: url(./images/fog-5302291__340.webp);
+    width: fit-content;
+    margin: 150px auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+    font-size: 25px;
+    outline: none;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+#box{
+    margin: 10px;
+    font-size: medium;
+    border: 0;
+    border-bottom: 2px solid red;
+    background-color: rgb(248, 217, 203);
+}
+
+#submit{
+ background-color: pink;
+ margin: 0px auto;
+}
+
+#submit{
+    width: 100%;
+    border: 1px solid black;
+    margin: 25px auto;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: large;
+    /* display: inline-block; */
+}
+
+#fgpswd {
+    text-align: center;
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 26, 26);
+}
+
